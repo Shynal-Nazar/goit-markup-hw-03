@@ -1,0 +1,203 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-text-color: #ffffff;
+}
+
+/* ГОЛОВНІ СТИЛІ */
+.body {
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+
+  background: #e5e5e5;
+}
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo.text {
+  color: var(--accent-color);
+}
+.logo.header {
+  color: #000000;
+}
+.logo.footer {
+  color: var(--secondary-text-color);
+}
+
+/* button */
+.button {
+  font-family: inherit;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* СТИЛІ INDEX.HTML */
+/* header */
+.page-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  background: #ffffff;
+}
+.site-nav {
+}
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts {
+}
+.contacts .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* main */
+/* Прев'ю сайту */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--secondary-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* section */
+.section {
+}
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Переваги сайту */
+.advantage-list {
+}
+.advantage-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+/* Чим ми займаємось */
+.our-work {
+}
+.our-work-list {
+}
+
+/* Склад команди */
+.team {
+  background: #f5f4fa;
+}
+.team-list {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-list .title {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+}
+
+/* footer */
+/* Підвал */
+.footer {
+  background-color: #2f303a;
+}
+.footer-list {
+}
+.footer-list .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+}
+.footer-list .link-address {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* СТИЛЫ ДЛЯ portfolio.html */
+/* Фільтра та фото сторінки */
+.button-list {
+}
+.button.filter {
+  color: var(--title-text-color);
+
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.button.filter:hover,
+.button.filter:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.examples-list {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.examples-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
