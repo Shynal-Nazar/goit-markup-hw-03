@@ -13,7 +13,6 @@
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
-  background: #e5e5e5;
 }
 h1,
 h2,
@@ -64,7 +63,7 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid tomato; */
@@ -74,7 +73,7 @@ img {
 /* --------------------header--------------------- */
 .header {
   background-color: #ffffff;
-  border: 1px #ececec;
+  border: 1px solid #ececec;
 }
 .head-content-index {
   display: flex;
@@ -147,6 +146,8 @@ img {
   background-color: #2f303a;
 }
 .hero-title {
+  width: 696px;
+  margin: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -246,7 +247,10 @@ img {
   margin-left: var(--set-gap);
 }
 .team-list-foto {
-  margin-bottom: var(--set-gap);
+}
+.team-list-abouttext {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-list-subtitle {
   margin-bottom: 10px;
@@ -262,7 +266,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-bottom: var(--set-gap);
 }
 /* --------------------footer--------------------- */
 /* --------------------Підвал--------------------- */
@@ -309,11 +312,10 @@ img {
 
 /* ---------СТИЛЫ ДЛЯ portfolio.html-------------- */
 /* ---------Фільтра та фото сторінки-------------- */
-.head-content-portfolio {
+
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.portfolio {
 }
 .hero-title-portfolio {
 }
@@ -325,7 +327,7 @@ img {
   margin-bottom: 50px;
 }
 .portfolio-list-btn-item:not(:last-child) {
-  margin-right: var(--set-gap);
+  margin-right: 8px;
 }
 .portfolio-list-buton {
   padding: 6px 22px;
@@ -357,8 +359,10 @@ img {
 .examples-list-foto {
 }
 .examples-list-abouttext {
-  padding: 20px 24px;
-  border: 1px #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border: 1px solid #eeeeee;
 }
 .examples-list-subtitle {
   font-weight: 700;
