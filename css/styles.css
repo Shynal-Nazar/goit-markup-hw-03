@@ -14,6 +14,7 @@
   font-size: 14px;
   line-height: 1.71;
 }
+
 h1,
 h2,
 h3,
@@ -28,6 +29,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
 .list {
   margin: 0;
   padding: 0;
@@ -60,6 +62,7 @@ img {
   border: 0;
   clip: rect(0 0 0 0);
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -68,20 +71,24 @@ img {
   padding-right: 15px;
   /* outline: 2px solid tomato; */
 }
+
 /* -------------------------Logo------------------ */
 /* -----------------СТИЛІ INDEX.HTML-------------- */
 /* --------------------header--------------------- */
 .header {
   background-color: #ffffff;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
+
 .head-content-index {
   display: flex;
 }
+
 .header-navigation {
   display: flex;
   align-items: center;
 }
+
 .heder-logo-web {
   color: var(--accent-color);
 }
@@ -89,13 +96,16 @@ img {
 .heder-logo-stydio {
   color: #000000;
 }
+
 .heder-nav-list {
   display: flex;
   margin-left: 93px;
 }
+
 .heder-nav-item + .heder-nav-item {
   margin-left: 50px;
 }
+
 .heder-nav-link {
   display: block;
   padding-top: 32px;
@@ -112,13 +122,16 @@ img {
 .heder-nav-link:focus {
   color: var(--accent-color);
 }
+
 .heder-contacts-list {
   display: flex;
   margin-left: auto;
 }
+
 .heder-contacts-item + .heder-contacts-item {
   margin-left: 50px;
 }
+
 .heder-contacts-link {
   display: block;
   padding-top: 32px;
@@ -145,6 +158,7 @@ img {
 
   background-color: #2f303a;
 }
+
 .hero-title {
   width: 696px;
   margin: auto;
@@ -156,6 +170,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .hero-button {
   padding: 10px 32px;
   font-weight: 700;
@@ -168,19 +183,23 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
 /* ---------advantage(Переваги сайту)-------------- */
 .advantage {
   padding-top: 94px;
   padding-bottom: 47px;
 }
+
 .advantage-list {
   display: flex;
   margin-left: calc(-1 * var(--set-gap));
 }
+
 .advantage-list-item {
   flex-basis: calc(100% / 4 - var(--set-gap));
   margin-left: var(--set-gap);
 }
+
 .advantage-list-subtitle {
   margin-bottom: 10px;
   font-weight: 700;
@@ -190,19 +209,22 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+
 .advantage-list-text {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
-  cing: 0.03em;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 /* ---------our-work(Чим ми займаємось)------------ */
 .our-work {
   text-align: center;
   padding-top: 47px;
   padding-bottom: 94px;
 }
+
 .our-work-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -212,20 +234,24 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .our-work-list {
   display: flex;
   margin-left: calc(-1 * var(--set-gap));
 }
+
 .our-work-list-item {
   flex-basis: calc(100% / 3 - var(--set-gap));
   margin-left: var(--set-gap);
 }
+
 /* -------------team(Склад команди)----------------- */
 .team {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .team-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -235,10 +261,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-list {
   display: flex;
   margin-left: calc(-1 * var(--set-gap));
 }
+
 .team-list-item {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -246,12 +274,14 @@ img {
   flex-basis: calc(100% / 4 - var(--set-gap));
   margin-left: var(--set-gap);
 }
+
 .team-list-foto {
 }
 .team-list-abouttext {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .team-list-subtitle {
   margin-bottom: 10px;
   font-weight: 500;
@@ -260,6 +290,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-list-text {
   margin-top: 0;
   font-size: 16px;
@@ -267,6 +298,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 /* --------------------footer--------------------- */
 /* --------------------Підвал--------------------- */
 .footer {
@@ -274,17 +306,21 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-logo-web {
   color: var(--accent-color);
 }
+
 .footer-logo-stydio {
   color: #ffffff;
   display: block;
   margin-bottom: 20px;
 }
+
 .footer-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .footer-list-link-addres {
   font-size: 14px;
   line-height: 1.71;
@@ -292,6 +328,7 @@ img {
   font-style: normal;
   color: #ffffff;
 }
+
 .footer-list-link-addres:hover,
 .footer-list-link-addres:focus {
   color: var(--accent-color);
@@ -305,6 +342,7 @@ img {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
   color: var(--accent-color);
@@ -317,18 +355,23 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .hero-title-portfolio {
 }
+
 .portfolio-title {
 }
+
 .portfolio-list-btn {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .portfolio-list-btn-item:not(:last-child) {
   margin-right: 8px;
 }
+
 .portfolio-list-buton {
   padding: 6px 22px;
   font-weight: 500;
@@ -338,17 +381,20 @@ img {
   color: var(--title-text-color);
   cursor: pointer;
 }
+
 .portfolio-list-buton:hover,
 .portfolio-list-buton:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
+
 .examples-list {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -30px;
   margin-right: -30px;
 }
+
 .examples-list-item {
   flex-basis: calc(100% / 3 - var(--set-gap));
   margin-bottom: var(--set-gap);
@@ -356,14 +402,11 @@ img {
   background: #ffffff;
 }
 
-.examples-list-foto {
-}
 .examples-list-abouttext {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
+
 .examples-list-subtitle {
   font-weight: 700;
   font-size: 18px;
